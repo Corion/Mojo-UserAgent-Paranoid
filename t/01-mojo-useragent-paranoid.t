@@ -6,7 +6,6 @@ use Mojo::UserAgent::Paranoid;
 
 my $io = Mojo::IOLoop->singleton;
 my $ua = Mojo::UserAgent::Paranoid->new( ioloop => $io );
-#my $ua = Mojo::UserAgent::->new();
 
 my @to_be_blocked = (
     'localhost',
